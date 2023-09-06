@@ -11,6 +11,7 @@
 		3DCACA832AA8992100FB200E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCACA822AA8992100FB200E /* ViewController.swift */; };
 		3DCACA852AA8992200FB200E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCACA842AA8992200FB200E /* Assets.xcassets */; };
 		3DCACA882AA8992200FB200E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCACA862AA8992200FB200E /* Main.storyboard */; };
+		3DCACA902AA8AC4D00FB200E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCACA8F2AA8AC4D00FB200E /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3DCACA842AA8992200FB200E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCACA872AA8992200FB200E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DCACA892AA8992200FB200E /* macOSPerson.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSPerson.entitlements; sourceTree = "<group>"; };
+		3DCACA8F2AA8AC4D00FB200E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3DCACA802AA8992100FB200E /* AppDelegate.swift */,
 				3DCACA822AA8992100FB200E /* ViewController.swift */,
+				3DCACA8F2AA8AC4D00FB200E /* Person.swift */,
 				3DCACA842AA8992200FB200E /* Assets.xcassets */,
 				3DCACA862AA8992200FB200E /* Main.storyboard */,
 				3DCACA892AA8992200FB200E /* macOSPerson.entitlements */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCACA902AA8AC4D00FB200E /* Person.swift in Sources */,
 				3DCACA832AA8992100FB200E /* ViewController.swift in Sources */,
 				3DCACA812AA8992100FB200E /* AppDelegate.swift in Sources */,
 			);
